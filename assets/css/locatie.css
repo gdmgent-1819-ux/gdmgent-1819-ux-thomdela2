@@ -52,7 +52,7 @@ li {
 
 a{
     text-decoration: none;
-    color: var(--c-zwart);
+    color: black;
 }
 
 #main {
@@ -75,6 +75,38 @@ a{
     text-decoration: underline solid var(--c-paars);
 }
 
+.scroll{
+    padding-top: 90vh;
+    float: left;
+    padding-left: 10vw;
+}
+
+#locatie{
+    height: 100vh;
+    width: 100vw;
+    /* background: rgba(248, 199, 156, 0.733); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#locatie img{
+    width: 50vw;
+    padding-left: 10vw;
+    padding-top: 30vh;
+}
+
+#locatie p{
+    font-family: var(--f-title);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+.slagzin a{
+    text-decoration: underline solid var(--c-paars);
+}
+
 @media only screen and (max-width: 600px){
     /* body{
         background: #5b3985;
@@ -91,5 +123,7 @@ a{
     #navbarElements{
         margin-right: 5vw;
     }
-
+    #locatie p{
+        font-size: 20pt;
+    }
 }

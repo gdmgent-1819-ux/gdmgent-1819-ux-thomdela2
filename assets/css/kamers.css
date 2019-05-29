@@ -75,6 +75,20 @@ a{
     text-decoration: underline solid var(--c-paars);
 }
 
+#kamers{
+    /* background: rgb(250, 201, 159); */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kamers li{
+    font-size: 30pt;
+    padding: 20pt;
+}
+
 @media only screen and (max-width: 600px){
     /* body{
         background: #5b3985;
@@ -91,5 +105,8 @@ a{
     #navbarElements{
         margin-right: 5vw;
     }
-
+    #kamers li{
+        font-size: 15pt;
+        padding: 10pt;
+    }
 }
